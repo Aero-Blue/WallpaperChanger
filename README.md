@@ -3,6 +3,10 @@ Change windows wallpaper using JNA and the W32-API
 
 # Example
 
-Very simple to use:
+Set a specified wallpaper:
 
-`WallpaperChanger.setWallpaper("path/to/image")`
+`WallpaperChanger.setWallpaper("path/to/image");`
+
+Get the path to the currently set wallpaper:
+
+`WallpaperChanger.getWallpaper();`
